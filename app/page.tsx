@@ -3,6 +3,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
 import { Scale, FileSearch, Brain, Shield, Zap, Users, BookOpen, TrendingUp } from "lucide-react";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -19,7 +20,9 @@ export default function Home() {
               <a href="#features" className="text-slate-600 hover:text-slate-900 dark:text-slate-300 dark:hover:text-white transition">Features</a>
               <a href="#about" className="text-slate-600 hover:text-slate-900 dark:text-slate-300 dark:hover:text-white transition">About</a>
               <a href="#use-cases" className="text-slate-600 hover:text-slate-900 dark:text-slate-300 dark:hover:text-white transition">Use Cases</a>
-              <Button>Get Started</Button>
+              <Link href="/register">
+                <Button>Get Started</Button>
+              </Link>
             </div>
           </div>
         </div>
@@ -41,12 +44,16 @@ export default function Home() {
             and intelligent research tools that save time and enhance accuracy.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
-            <Button size="lg" className="text-lg px-8">
-              Start Free Trial
-            </Button>
-            <Button size="lg" variant="outline" className="text-lg px-8">
-              Watch Demo
-            </Button>
+            <Link href="/register">
+              <Button size="lg" className="text-lg px-8">
+                Start Free Trial
+              </Button>
+            </Link>
+            <Link href="/demo">
+              <Button size="lg" variant="outline" className="text-lg px-8">
+                Watch Demo
+              </Button>
+            </Link>
           </div>
           <div className="mt-12 grid grid-cols-3 gap-8 text-center">
             <div>
@@ -302,12 +309,16 @@ export default function Home() {
             Join thousands of legal professionals who are already using Legal AI to work smarter and faster.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" variant="secondary" className="text-lg px-8">
-              Start Free 14-Day Trial
-            </Button>
-            <Button size="lg" variant="outline" className="text-lg px-8 bg-transparent text-white border-white hover:bg-white/10">
-              Schedule a Demo
-            </Button>
+            <Link href="/register">
+              <Button size="lg" variant="secondary" className="text-lg px-8">
+                Start Free 14-Day Trial
+              </Button>
+            </Link>
+            <Link href="/demo">
+              <Button size="lg" variant="outline" className="text-lg px-8 bg-transparent text-white border-white hover:bg-white/10">
+                Schedule a Demo
+              </Button>
+            </Link>
           </div>
           <p className="text-blue-100 mt-6 text-sm">
             No credit card required • Full access to all features
@@ -331,28 +342,28 @@ export default function Home() {
             <div>
               <h3 className="font-semibold text-white mb-4">Product</h3>
               <ul className="space-y-2 text-sm">
-                <li><a href="#" className="hover:text-white transition">Features</a></li>
-                <li><a href="#" className="hover:text-white transition">Pricing</a></li>
-                <li><a href="#" className="hover:text-white transition">Security</a></li>
-                <li><a href="#" className="hover:text-white transition">Integrations</a></li>
+                <li><Link href="/#features" className="hover:text-white transition">Features</Link></li>
+                <li><Link href="/pricing" className="hover:text-white transition">Pricing</Link></li>
+                <li><Link href="/privacy" className="hover:text-white transition">Security</Link></li>
+                <li><Link href="/demo" className="hover:text-white transition">Integrations</Link></li>
               </ul>
             </div>
             <div>
               <h3 className="font-semibold text-white mb-4">Company</h3>
               <ul className="space-y-2 text-sm">
-                <li><a href="#" className="hover:text-white transition">About Us</a></li>
-                <li><a href="#" className="hover:text-white transition">Careers</a></li>
-                <li><a href="#" className="hover:text-white transition">Blog</a></li>
-                <li><a href="#" className="hover:text-white transition">Contact</a></li>
+                <li><Link href="/about-us" className="hover:text-white transition">About Us</Link></li>
+                <li><Link href="/contact" className="hover:text-white transition">Careers</Link></li>
+                <li><Link href="/contact" className="hover:text-white transition">Blog</Link></li>
+                <li><Link href="/contact" className="hover:text-white transition">Contact</Link></li>
               </ul>
             </div>
             <div>
               <h3 className="font-semibold text-white mb-4">Legal</h3>
               <ul className="space-y-2 text-sm">
-                <li><a href="#" className="hover:text-white transition">Privacy Policy</a></li>
-                <li><a href="#" className="hover:text-white transition">Terms of Service</a></li>
-                <li><a href="#" className="hover:text-white transition">Cookie Policy</a></li>
-                <li><a href="#" className="hover:text-white transition">Compliance</a></li>
+                <li><Link href="/privacy" className="hover:text-white transition">Privacy Policy</Link></li>
+                <li><Link href="/terms" className="hover:text-white transition">Terms of Service</Link></li>
+                <li><Link href="/privacy" className="hover:text-white transition">Cookie Policy</Link></li>
+                <li><Link href="/privacy" className="hover:text-white transition">Compliance</Link></li>
               </ul>
             </div>
           </div>
