@@ -33,12 +33,12 @@ export default function Home() {
             Powered by Advanced AI
           </Badge>
           <h1 className="text-4xl md:text-6xl font-bold text-slate-900 dark:text-white mb-6 leading-tight">
-            Revolutionizing Legal Work with
-            <span className="text-blue-600 block mt-2">Artificial Intelligence</span>
+            The Future of Legal Practice is
+            <span className="text-blue-600 block mt-2">AI-Powered Infrastructure</span>
           </h1>
           <p className="text-xl text-slate-600 dark:text-slate-300 mb-8 max-w-2xl">
-            Empower your legal practice with AI-driven insights, automated document analysis,
-            and intelligent research tools that save time and enhance accuracy.
+            2026 marks the transition from AI assistants to autonomous AI agents executing multi-step legal tasks.
+            Join 52% of corporate legal teams already leveraging AI to reduce costs and accelerate workflows.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Button size="lg" className="text-lg px-8">
@@ -50,16 +50,16 @@ export default function Home() {
           </div>
           <div className="mt-12 grid grid-cols-3 gap-8 text-center">
             <div>
-              <div className="text-3xl font-bold text-blue-600">98%</div>
-              <div className="text-sm text-slate-600 dark:text-slate-400">Accuracy Rate</div>
+              <div className="text-3xl font-bold text-blue-600">$1.89B</div>
+              <div className="text-sm text-slate-600 dark:text-slate-400">2026 Market Size</div>
             </div>
             <div>
-              <div className="text-3xl font-bold text-blue-600">10K+</div>
-              <div className="text-sm text-slate-600 dark:text-slate-400">Legal Professionals</div>
+              <div className="text-3xl font-bold text-blue-600">52%</div>
+              <div className="text-sm text-slate-600 dark:text-slate-400">Corporate Legal Adoption</div>
             </div>
             <div>
-              <div className="text-3xl font-bold text-blue-600">70%</div>
-              <div className="text-sm text-slate-600 dark:text-slate-400">Time Saved</div>
+              <div className="text-3xl font-bold text-blue-600">50%</div>
+              <div className="text-sm text-slate-600 dark:text-slate-400">Faster Contract Review</div>
             </div>
           </div>
         </div>
@@ -72,10 +72,10 @@ export default function Home() {
         <div className="text-center mb-16">
           <Badge className="mb-4">Features</Badge>
           <h2 className="text-3xl md:text-4xl font-bold text-slate-900 dark:text-white mb-4">
-            Comprehensive AI-Powered Legal Tools
+            2026: AI Becomes Legal Infrastructure
           </h2>
           <p className="text-lg text-slate-600 dark:text-slate-300 max-w-2xl mx-auto">
-            Our platform provides everything you need to streamline your legal workflow
+            Leveraging machine learning, NLP, and agentic AI to transform legal operations from automation to autonomous execution
           </p>
         </div>
 
@@ -83,16 +83,16 @@ export default function Home() {
           <Card className="hover:shadow-lg transition">
             <CardHeader>
               <FileSearch className="h-10 w-10 text-blue-600 mb-2" />
-              <CardTitle>Document Analysis</CardTitle>
+              <CardTitle>AI Contract Review</CardTitle>
               <CardDescription>
-                Automatically extract key information from contracts, agreements, and legal documents
+                Extract 1,400+ clauses across 40 legal areas with 95% accuracy using advanced NLP
               </CardDescription>
             </CardHeader>
             <CardContent>
               <ul className="space-y-2 text-sm text-slate-600 dark:text-slate-400">
-                <li>• Contract clause identification</li>
-                <li>• Risk assessment</li>
-                <li>• Compliance checking</li>
+                <li>• 8x faster contract reviews</li>
+                <li>• 50% reduction in review time</li>
+                <li>• 240 hours saved per lawyer/year</li>
               </ul>
             </CardContent>
           </Card>
@@ -100,16 +100,16 @@ export default function Home() {
           <Card className="hover:shadow-lg transition">
             <CardHeader>
               <Brain className="h-10 w-10 text-blue-600 mb-2" />
-              <CardTitle>Legal Research AI</CardTitle>
+              <CardTitle>Agentic AI Workflows</CardTitle>
               <CardDescription>
-                Intelligent case law search and precedent analysis powered by machine learning
+                Autonomous AI agents execute multi-step legal tasks - 40% of enterprise apps by 2026
               </CardDescription>
             </CardHeader>
             <CardContent>
               <ul className="space-y-2 text-sm text-slate-600 dark:text-slate-400">
-                <li>• Natural language queries</li>
-                <li>• Relevant case discovery</li>
-                <li>• Citation analysis</li>
+                <li>• Deep research capabilities</li>
+                <li>• Autonomous document review</li>
+                <li>• Multi-agent collaboration</li>
               </ul>
             </CardContent>
           </Card>
@@ -117,16 +117,16 @@ export default function Home() {
           <Card className="hover:shadow-lg transition">
             <CardHeader>
               <Shield className="h-10 w-10 text-blue-600 mb-2" />
-              <CardTitle>Compliance Monitoring</CardTitle>
+              <CardTitle>AI Compliance & Risk</CardTitle>
               <CardDescription>
-                Stay updated with regulatory changes and ensure compliance across jurisdictions
+                Colorado AI Act & Illinois AI Employment Law compliant - June 2026 ready
               </CardDescription>
             </CardHeader>
             <CardContent>
               <ul className="space-y-2 text-sm text-slate-600 dark:text-slate-400">
-                <li>• Real-time regulation updates</li>
-                <li>• Compliance alerts</li>
-                <li>• Risk mitigation</li>
+                <li>• Risk management policies</li>
+                <li>• Impact assessments</li>
+                <li>• 80% orgs with AI ethics policies</li>
               </ul>
             </CardContent>
           </Card>
@@ -134,16 +134,16 @@ export default function Home() {
           <Card className="hover:shadow-lg transition">
             <CardHeader>
               <BookOpen className="h-10 w-10 text-blue-600 mb-2" />
-              <CardTitle>Contract Drafting</CardTitle>
+              <CardTitle>Zero-Touch Contracting</CardTitle>
               <CardDescription>
-                Generate accurate legal documents using AI-powered templates and suggestions
+                2026: Automated low-risk agreements with surgical redlining at 95% accuracy
               </CardDescription>
             </CardHeader>
             <CardContent>
               <ul className="space-y-2 text-sm text-slate-600 dark:text-slate-400">
-                <li>• Smart clause recommendations</li>
-                <li>• Custom templates</li>
-                <li>• Version control</li>
+                <li>• AI-generated playbooks</li>
+                <li>• Automated negotiation</li>
+                <li>• 40% faster contract cycles</li>
               </ul>
             </CardContent>
           </Card>
@@ -151,16 +151,16 @@ export default function Home() {
           <Card className="hover:shadow-lg transition">
             <CardHeader>
               <TrendingUp className="h-10 w-10 text-blue-600 mb-2" />
-              <CardTitle>Predictive Analytics</CardTitle>
+              <CardTitle>Predictive Legal Analytics</CardTitle>
               <CardDescription>
-                Forecast case outcomes and make data-driven legal decisions
+                Machine learning algorithms forecast case outcomes using historical legal data
               </CardDescription>
             </CardHeader>
             <CardContent>
               <ul className="space-y-2 text-sm text-slate-600 dark:text-slate-400">
-                <li>• Case outcome prediction</li>
-                <li>• Settlement recommendations</li>
-                <li>• Cost analysis</li>
+                <li>• Case outcome probability</li>
+                <li>• Settlement value predictions</li>
+                <li>• Historical pattern analysis</li>
               </ul>
             </CardContent>
           </Card>
@@ -168,16 +168,16 @@ export default function Home() {
           <Card className="hover:shadow-lg transition">
             <CardHeader>
               <Users className="h-10 w-10 text-blue-600 mb-2" />
-              <CardTitle>Team Collaboration</CardTitle>
+              <CardTitle>In-House AI Transformation</CardTitle>
               <CardDescription>
-                Seamlessly collaborate with your team on cases and documents
+                64% of in-house teams expect to depend less on outside counsel using AI
               </CardDescription>
             </CardHeader>
             <CardContent>
               <ul className="space-y-2 text-sm text-slate-600 dark:text-slate-400">
-                <li>• Real-time collaboration</li>
-                <li>• Task management</li>
-                <li>• Secure sharing</li>
+                <li>• 52% corporate adoption rate</li>
+                <li>• Internal capability building</li>
+                <li>• Cost reduction strategies</li>
               </ul>
             </CardContent>
           </Card>
@@ -188,33 +188,34 @@ export default function Home() {
       <section id="about" className="bg-slate-100 dark:bg-slate-900 py-20">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center">
-            <Badge className="mb-4">About Legal AI</Badge>
+            <Badge className="mb-4">2026 Legal AI Landscape</Badge>
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 dark:text-white mb-6">
-              Transforming the Future of Legal Practice
+              From Interesting Tool to Operational Infrastructure
             </h2>
             <p className="text-lg text-slate-600 dark:text-slate-300 mb-6">
-              Legal AI is built by legal professionals and AI experts who understand the unique
-              challenges of the legal industry. Our mission is to make advanced AI technology
-              accessible to law firms of all sizes, enabling them to deliver better outcomes
-              for their clients while reducing costs and improving efficiency.
+              2026 marks the pivotal year when AI transitions from pilot projects to mission-critical
+              legal infrastructure. The shift from AI assistants to autonomous agentic AI represents
+              the most significant technical evolution in legal technology, with Gartner predicting
+              40% of enterprise applications will feature task-specific AI agents by year-end, up from less than 5% today.
             </p>
             <p className="text-lg text-slate-600 dark:text-slate-300 mb-8">
-              We combine cutting-edge natural language processing, machine learning, and
-              deep learning technologies to create tools that truly understand legal context
-              and provide actionable insights.
+              Machine learning and deep learning now power 63% of legal AI solutions, enabling
+              sophisticated algorithms to analyze vast legal datasets and automate complex processes.
+              The rise of "full-stack AI" law firms—built from the ground up with AI at their core—signals
+              a fundamental restructuring of legal service delivery.
             </p>
             <div className="grid md:grid-cols-3 gap-8 mt-12">
               <div className="bg-white dark:bg-slate-800 p-6 rounded-lg">
-                <h3 className="text-2xl font-bold text-blue-600 mb-2">2020</h3>
-                <p className="text-slate-600 dark:text-slate-400">Founded</p>
+                <h3 className="text-2xl font-bold text-blue-600 mb-2">$8.09B</h3>
+                <p className="text-slate-600 dark:text-slate-400">Market Size by 2035</p>
               </div>
               <div className="bg-white dark:bg-slate-800 p-6 rounded-lg">
-                <h3 className="text-2xl font-bold text-blue-600 mb-2">500+</h3>
-                <p className="text-slate-600 dark:text-slate-400">Law Firms</p>
+                <h3 className="text-2xl font-bold text-blue-600 mb-2">17.3%</h3>
+                <p className="text-slate-600 dark:text-slate-400">Annual Growth Rate (CAGR)</p>
               </div>
               <div className="bg-white dark:bg-slate-800 p-6 rounded-lg">
-                <h3 className="text-2xl font-bold text-blue-600 mb-2">24/7</h3>
-                <p className="text-slate-600 dark:text-slate-400">Support</p>
+                <h3 className="text-2xl font-bold text-blue-600 mb-2">49%</h3>
+                <p className="text-slate-600 dark:text-slate-400">North America Market Share</p>
               </div>
             </div>
           </div>
@@ -236,59 +237,92 @@ export default function Home() {
         <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
           <Card>
             <CardHeader>
-              <CardTitle>Corporate Law Firms</CardTitle>
+              <CardTitle>AI-Native Law Firms</CardTitle>
               <CardDescription>
-                Streamline M&A due diligence, contract review, and compliance management
+                Full-stack AI firms built from ground up like Crosby and Garfield AI
               </CardDescription>
             </CardHeader>
             <CardContent>
               <p className="text-slate-600 dark:text-slate-400">
-                Reduce document review time by 70% and identify critical issues faster with AI-powered analysis.
+                Garfield AI: First fully AI-powered law firm authorized by UK's SRA. Crosby: Agentic AI-powered
+                firm combining custom software with in-house lawyers achieving 100x productivity on specific tasks.
               </p>
             </CardContent>
           </Card>
 
           <Card>
             <CardHeader>
-              <CardTitle>Litigation Practices</CardTitle>
+              <CardTitle>Corporate Legal Departments</CardTitle>
               <CardDescription>
-                Enhance case research, e-discovery, and outcome prediction capabilities
+                52% adoption rate - doubling year-over-year with rapid internal capability building
               </CardDescription>
             </CardHeader>
             <CardContent>
               <p className="text-slate-600 dark:text-slate-400">
-                Find relevant precedents faster and make data-driven strategic decisions with predictive analytics.
+                64% of in-house teams expect to depend less on outside counsel. AI adoption in corporate
+                legal jumped from 23% to 52% in one year, outpacing law firm adoption significantly.
               </p>
             </CardContent>
           </Card>
 
           <Card>
             <CardHeader>
-              <CardTitle>In-House Legal Teams</CardTitle>
+              <CardTitle>Contract Lifecycle Management</CardTitle>
               <CardDescription>
-                Manage contracts, track compliance, and reduce external legal costs
+                Reduce contract cycle times by 40%, review times by 50%, 8x faster reviews
               </CardDescription>
             </CardHeader>
             <CardContent>
               <p className="text-slate-600 dark:text-slate-400">
-                Automate routine tasks and focus on strategic initiatives that drive business value.
+                Tools like Kira extract 1,400+ clauses across 40 legal areas. Teams reclaim 240 hours per
+                lawyer annually. Thomson Reuters CoCounsel and LexisNexis Protégé deploy specialized agent workflows.
               </p>
             </CardContent>
           </Card>
 
           <Card>
             <CardHeader>
-              <CardTitle>Solo Practitioners</CardTitle>
+              <CardTitle>Compliance & Regulatory</CardTitle>
               <CardDescription>
-                Access enterprise-grade tools at an affordable price point
+                June 2026: Colorado AI Act compliance with risk assessments and transparency
               </CardDescription>
             </CardHeader>
             <CardContent>
               <p className="text-slate-600 dark:text-slate-400">
-                Compete with larger firms by leveraging AI to deliver exceptional service to your clients.
+                80% of organizations formalizing AI policies by 2026. Illinois AI Employment Law (Jan 2026)
+                mandates disclosure. High-risk AI systems require impact assessments and ethical frameworks.
               </p>
             </CardContent>
           </Card>
+        </div>
+      </section>
+
+      {/* Sources & Research Section */}
+      <section className="container mx-auto px-4 py-16">
+        <div className="max-w-4xl mx-auto">
+          <div className="text-center mb-12">
+            <Badge className="mb-4">Research & Data Sources</Badge>
+            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 dark:text-white mb-4">
+              Based on Industry-Leading Research
+            </h2>
+            <p className="text-lg text-slate-600 dark:text-slate-300">
+              All statistics and insights are sourced from reputable legal technology research firms and industry analysts
+            </p>
+          </div>
+
+          <div className="bg-slate-50 dark:bg-slate-800 rounded-lg p-8 space-y-4">
+            <h3 className="font-semibold text-slate-900 dark:text-white mb-4">Key Research Sources:</h3>
+            <ul className="space-y-3 text-sm text-slate-600 dark:text-slate-400">
+              <li>• <a href="https://www.grandviewresearch.com/industry-analysis/legal-ai-market-report" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Grand View Research - Legal AI Market Report</a></li>
+              <li>• <a href="https://natlawreview.com/article/85-predictions-ai-and-law-2026" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">National Law Review - 85 Predictions for AI and Law in 2026</a></li>
+              <li>• <a href="https://pro.bloomberglaw.com/insights/technology/bloomberg-law-2026-key-legal-ai-trends/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Bloomberg Law - 2026 Key Legal AI Trends</a></li>
+              <li>• <a href="https://www.litera.com/blog/ai-legal-tech-5-predictions-2026" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Litera - AI in Legal Tech: 5 Predictions for 2026</a></li>
+              <li>• <a href="https://www.sirion.ai/library/contract-ai/ai-legal-documents/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Sirion - AI for Legal Documents Analysis Guide</a></li>
+              <li>• <a href="https://www.marketsandmarkets.com/Market-Reports/legal-ai-software-market-88725278.html" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">MarketsandMarkets - Legal AI Software Market Analysis</a></li>
+              <li>• Gartner Research - Enterprise AI Agent Predictions</li>
+              <li>• Harvard Law School Center on Legal Profession - AI Impact Studies</li>
+            </ul>
+          </div>
         </div>
       </section>
 
